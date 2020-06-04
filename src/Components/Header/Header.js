@@ -38,11 +38,7 @@ const IconHeader = styled(FontAwesomeIcon)`
   visibility: ${(props) => (props.back ? "hidden" : "visibility")};
 `;
 
-const Header = ({
-  back = false,
-  title = "Wiki Clash",
-  background = "white",
-}) => {
+const Header = ({ back, title = "Wiki Clash", background = "white" }) => {
   return (
     <HeaderStyle back={back} background={background}>
       {back ? (

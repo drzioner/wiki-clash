@@ -1,0 +1,319 @@
+{
+  "cards": [
+    {
+      "id": "knight",
+      "title": "Caballero",
+      "image": "https://api-assets.clashroyale.com/cards/300/jAj1Q5rclXxU9kVImGqSJxa4wEMfEhvwNQ_4jiGUuqg.png",
+      "description": "Un aguerrido luchador cuerpo a cuerpo, mucho más apuesto y culto que su primo lejano, el bárbaro. Se rumorea que el único motivo por el que fue nombrado caballero es la genialidad de su bigote.",
+      "background": "#F2B705",
+      "type": "Común",
+      "category": "Tropa",
+      "details": "Puede obtenerse de los cofres una vez alcanzado el entrenamiento. Se necesitan 3 unidades de elíxir para desplegar esta carta.",
+      "strengths": "El caballero tiene puntos de vida e inflige daño considerablemente alto, lo que lo vuelve una útil unidad de ataque. Gracias a su velocidad de ataque, no está tan desprotegido contra hordas de tropas como el P.E.K.K.A.",
+      "weaknesses": "No ataca aire, por lo que, es muy vulnerable a unidades aéreas.",
+      "strategies": "Al ser una unidad con alta vida y bajo coste, puede ser usada para defender unidades de despeje como el mago, mosquetera o verdugo cuando estas vienen a una de las torres de coronas.",
+      "generalInformation": {
+        "attackSpeed": "1.2 segundos",
+        "speed": "Media",
+        "deploymentTime": "1 segundo",
+        "scope": "Cuerpo a cuerpo",
+        "objectives": "Terrestres",
+        "cost": "3 elixir",
+        "rarity": "Común",
+        "type": "Tropa",
+        "quantity": "1",
+        "sand": "Entrenamiento"
+      },
+      "levels": [
+        {
+          "level": 1,
+          "lifePoints": 637,
+          "hurt": 75,
+          "damagePerSecond": 62
+        },
+        {
+          "level": 2,
+          "lifePoints": 700,
+          "hurt": 82,
+          "damagePerSecond": 68
+        },
+        {
+          "level": 3,
+          "lifePoints": 770,
+          "hurt": 90,
+          "damagePerSecond": 75
+        },
+        {
+          "level": 4,
+          "lifePoints": 847,
+          "hurt": 99,
+          "damagePerSecond": 82
+        },
+        {
+          "level": 5,
+          "lifePoints": 930,
+          "hurt": 109,
+          "damagePerSecond": 90
+        },
+        {
+          "level": 6,
+          "lifePoints": 1019,
+          "hurt": 120,
+          "damagePerSecond": 100
+        },
+        {
+          "level": 7,
+          "lifePoints": 1121,
+          "hurt": 132,
+          "damagePerSecond": 110
+        },
+        {
+          "level": 8,
+          "lifePoints": 1229,
+          "hurt": 144,
+          "damagePerSecond": 120
+        },
+        {
+          "level": 9,
+          "lifePoints": 1350,
+          "hurt": 159,
+          "damagePerSecond": 132
+        },
+        {
+          "level": 10,
+          "lifePoints": 1484,
+          "hurt": 174,
+          "damagePerSecond": 145
+        },
+        {
+          "level": 11,
+          "lifePoints": 1630,
+          "hurt": 192,
+          "damagePerSecond": 160
+        },
+        {
+          "level": 12,
+          "lifePoints": 1789,
+          "hurt": 210,
+          "damagePerSecond": 175
+        },
+        {
+          "level": 13,
+          "lifePoints": 1968,
+          "hurt": 231,
+          "damagePerSecond": 192
+        }
+      ]
+    },
+    {
+      "id": "archers",
+      "title": "Arqueras",
+      "image": "https://api-assets.clashroyale.com/cards/300/W4Hmp8MTSdXANN8KdblbtHwtsbt0o749BbxNqmJYfA8.png",
+      "description": "Un par de luchadoras a distancia que te ayudarán a librarte de unidades tanto aéreas como terrestres. Eso si, lo del color de pelo ya es cosa tuya.",
+      "background": "#DE299C",
+      "type": "Común",
+      "category": "Tropa",
+      "details": "Puede obtenerse de los cofres una vez alcanzado el entrenamiento. Se necesitan 3 unidades de elíxir para desplegar esta carta.",
+      "strengths": "El caballero tiene puntos de vida e inflige daño considerablemente alto, lo que lo vuelve una útil unidad de ataque. Gracias a su velocidad de ataque, no está tan desprotegido contra hordas de tropas como el P.E.K.K.A.",
+      "weaknesses": "No ataca aire, por lo que, es muy vulnerable a unidades aéreas.",
+      "strategies": "Al ser una unidad con alta vida y bajo coste, puede ser usada para defender unidades de despeje como el mago, mosquetera o verdugo cuando estas vienen a una de las torres de coronas.",
+      "generalInformation": {
+        "attackSpeed": "1.2 segundos",
+        "speed": "Media",
+        "deploymentTime": "1 segundo",
+        "scope": "Cuerpo a cuerpo",
+        "objectives": "Terrestres",
+        "cost": "3 elixir",
+        "rarity": "Común",
+        "type": "Tropa",
+        "quantity": "1",
+        "sand": "Entrenamiento"
+      },
+      "levels": [
+        {
+          "level": 1,
+          "lifePoints": 637,
+          "hurt": 75,
+          "damagePerSecond": 62
+        },
+        {
+          "level": 2,
+          "lifePoints": 700,
+          "hurt": 82,
+          "damagePerSecond": 68
+        },
+        {
+          "level": 3,
+          "lifePoints": 770,
+          "hurt": 90,
+          "damagePerSecond": 75
+        },
+        {
+          "level": 4,
+          "lifePoints": 847,
+          "hurt": 99,
+          "damagePerSecond": 82
+        },
+        {
+          "level": 5,
+          "lifePoints": 930,
+          "hurt": 109,
+          "damagePerSecond": 90
+        },
+        {
+          "level": 6,
+          "lifePoints": 1019,
+          "hurt": 120,
+          "damagePerSecond": 100
+        },
+        {
+          "level": 7,
+          "lifePoints": 1121,
+          "hurt": 132,
+          "damagePerSecond": 110
+        },
+        {
+          "level": 8,
+          "lifePoints": 1229,
+          "hurt": 144,
+          "damagePerSecond": 120
+        },
+        {
+          "level": 9,
+          "lifePoints": 1350,
+          "hurt": 159,
+          "damagePerSecond": 132
+        },
+        {
+          "level": 10,
+          "lifePoints": 1484,
+          "hurt": 174,
+          "damagePerSecond": 145
+        },
+        {
+          "level": 11,
+          "lifePoints": 1630,
+          "hurt": 192,
+          "damagePerSecond": 160
+        },
+        {
+          "level": 12,
+          "lifePoints": 1789,
+          "hurt": 210,
+          "damagePerSecond": 175
+        },
+        {
+          "level": 13,
+          "lifePoints": 1968,
+          "hurt": 231,
+          "damagePerSecond": 192
+        }
+      ]
+    },
+    {
+      "id": "goblins",
+      "title": "Duendes",
+      "image": "https://api-assets.clashroyale.com/cards/300/X_DQUye_OaS3QN6VC9CPw05Fit7wvSm3XegXIXKP--0.png",
+      "description": "Tres rápidos atacantes cuerpo a cuerpo sin armadura. Son pequeños, verdes y malévolos.",
+      "background": "#9FBE38",
+      "type": "Común",
+      "category": "Tropa",
+      "details": "Puede obtenerse de los cofres una vez alcanzado el entrenamiento. Se necesitan 3 unidades de elíxir para desplegar esta carta.",
+      "strengths": "El caballero tiene puntos de vida e inflige daño considerablemente alto, lo que lo vuelve una útil unidad de ataque. Gracias a su velocidad de ataque, no está tan desprotegido contra hordas de tropas como el P.E.K.K.A.",
+      "weaknesses": "No ataca aire, por lo que, es muy vulnerable a unidades aéreas.",
+      "strategies": "Al ser una unidad con alta vida y bajo coste, puede ser usada para defender unidades de despeje como el mago, mosquetera o verdugo cuando estas vienen a una de las torres de coronas.",
+      "generalInformation": {
+        "attackSpeed": "1.2 segundos",
+        "speed": "Media",
+        "deploymentTime": "1 segundo",
+        "scope": "Cuerpo a cuerpo",
+        "objectives": "Terrestres",
+        "cost": "3 elixir",
+        "rarity": "Común",
+        "type": "Tropa",
+        "quantity": "1",
+        "sand": "Entrenamiento"
+      },
+      "levels": [
+        {
+          "level": 1,
+          "lifePoints": 637,
+          "hurt": 75,
+          "damagePerSecond": 62
+        },
+        {
+          "level": 2,
+          "lifePoints": 700,
+          "hurt": 82,
+          "damagePerSecond": 68
+        },
+        {
+          "level": 3,
+          "lifePoints": 770,
+          "hurt": 90,
+          "damagePerSecond": 75
+        },
+        {
+          "level": 4,
+          "lifePoints": 847,
+          "hurt": 99,
+          "damagePerSecond": 82
+        },
+        {
+          "level": 5,
+          "lifePoints": 930,
+          "hurt": 109,
+          "damagePerSecond": 90
+        },
+        {
+          "level": 6,
+          "lifePoints": 1019,
+          "hurt": 120,
+          "damagePerSecond": 100
+        },
+        {
+          "level": 7,
+          "lifePoints": 1121,
+          "hurt": 132,
+          "damagePerSecond": 110
+        },
+        {
+          "level": 8,
+          "lifePoints": 1229,
+          "hurt": 144,
+          "damagePerSecond": 120
+        },
+        {
+          "level": 9,
+          "lifePoints": 1350,
+          "hurt": 159,
+          "damagePerSecond": 132
+        },
+        {
+          "level": 10,
+          "lifePoints": 1484,
+          "hurt": 174,
+          "damagePerSecond": 145
+        },
+        {
+          "level": 11,
+          "lifePoints": 1630,
+          "hurt": 192,
+          "damagePerSecond": 160
+        },
+        {
+          "level": 12,
+          "lifePoints": 1789,
+          "hurt": 210,
+          "damagePerSecond": 175
+        },
+        {
+          "level": 13,
+          "lifePoints": 1968,
+          "hurt": 231,
+          "damagePerSecond": 192
+        }
+      ]
+    }
+  ]
+}

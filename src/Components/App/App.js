@@ -14,7 +14,7 @@ const App = () => {
       <GlobalStyle />
       <Switch>
         <Route exact path="/" render={Home} />
-        <Route exact path="/:cardName" render={DetailsCard} />
+        <Route exact path="/:cardName" children={<DetailsCard />} />
       </Switch>
       <Footer />
     </Router>
