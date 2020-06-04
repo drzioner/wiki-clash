@@ -3,6 +3,7 @@
     {
       "name": "Knight",
       "id": 26000000,
+      "background": "#F2B705",
       "maxLevel": 13,
       "iconUrls": {
         "medium": "https://api-assets.clashroyale.com/cards/300/jAj1Q5rclXxU9kVImGqSJxa4wEMfEhvwNQ_4jiGUuqg.png"
@@ -11,6 +12,7 @@
     {
       "name": "Archers",
       "id": 26000001,
+      "background": "#DE299C",
       "maxLevel": 13,
       "iconUrls": {
         "medium": "https://api-assets.clashroyale.com/cards/300/W4Hmp8MTSdXANN8KdblbtHwtsbt0o749BbxNqmJYfA8.png"
@@ -19,6 +21,7 @@
     {
       "name": "Goblins",
       "id": 26000002,
+      "background": "#9FBE38",
       "maxLevel": 13,
       "iconUrls": {
         "medium": "https://api-assets.clashroyale.com/cards/300/X_DQUye_OaS3QN6VC9CPw05Fit7wvSm3XegXIXKP--0.png"

@@ -1,11 +1,15 @@
 import React from "react";
 import styled from "styled-components";
+import { useParams } from "react-router-dom";
 
 import { Container, Title, Img } from "../Styles";
 
 import Header from "../Header";
 import CardInfo from "../CardInfo";
 import DetailsTable from "../DetailsTable";
+import Levels from "../Levels";
+
+import dataCards from "../../Hooks/db.json";
 
 const ContainerCard = styled(Container)`
   align-items: center;
@@ -28,38 +32,20 @@ const ImgCard = styled(Img)`
   width: ${(props) => (props.back ? "250px" : "90px")};
 `;
 
-const dataCard = {
-  title: "Caballero",
-  image:
-    "https://api-assets.clashroyale.com/cards/300/jAj1Q5rclXxU9kVImGqSJxa4wEMfEhvwNQ_4jiGUuqg.png",
-  description:
-    "Un aguerrido luchador cuerpo a cuerpo, mucho más apuesto y culto que su primo lejano, el bárbaro. Se rumorea que el único motivo por el que fue nombrado caballero es la genialidad de su bigote.",
-  background: "#F2B705",
-  type: "Común",
-  category: "Tropa",
-  details:
-    "Puede obtenerse de los cofres una vez alcanzado el entrenamiento. Se necesitan 3 unidades de elíxir para desplegar esta carta.",
-  strengths:
-    "El caballero tiene puntos de vida e inflige daño considerablemente alto, lo que lo vuelve una útil unidad de ataque. Gracias a su velocidad de ataque, no está tan desprotegido contra hordas de tropas como el P.E.K.K.A.",
-  weaknesses: "No ataca aire, por lo que, es muy vulnerable a unidades aéreas.",
-  strategies:
-    "Al ser una unidad con alta vida y bajo coste, puede ser usada para defender unidades de despeje como el mago, mosquetera o verdugo cuando estas vienen a una de las torres de coronas.",
-  generalInformation: {
-    attackSpeed: "1.2 segundos",
-    speed: "Media",
-    deploymentTime: "1 segundo",
-    scope: "Cuerpo a cuerpo",
-    objectives: "Terrestres",
-    cost: "3 elixir",
-    rarity: "Común",
-    type: "Tropa",
-    quantity: "1",
-    sand: "Entrenamiento",
-  },
-};
+const cards = dataCards.cards;
 
 const DetailsCard = () => {
-  const back = true;
+  const { cardName } = useParams();
+  const back = "true";
+
+  let dataCard = [];
+
+  cards.forEach((card) => {
+    if (card.id === cardName) {
+      dataCard = card;
+    }
+  });
+
   const {
     title,
     image,
@@ -72,12 +58,13 @@ const DetailsCard = () => {
     weaknesses,
     strategies,
     generalInformation,
+    levels,
   } = dataCard;
 
   return (
     <>
       <Header back={back} background={background} title={title} />
-      <ContainerCard back={back}>
+      <ContainerCard back={back} background={background}>
         <ImgCard back={back} src={image} alt={title} />
         <Title fontSize={"200%"}>{type}</Title>
         <TitleCard fontSize={"150%"}>{category}</TitleCard>
@@ -99,7 +86,11 @@ const DetailsCard = () => {
           flexFlow={"row nowrap"}
           textAlign={"left"}
         />
-        <DetailsTable background={background} details={generalInformation} />
+        <DetailsTable
+          background={background}
+          generalInformation={generalInformation}
+        />
+        <Levels levels={levels} />
         <CardInfo
           title={"Estrategias"}
           color={"#FAFAFA"}

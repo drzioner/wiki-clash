@@ -38,7 +38,7 @@ const FontSize = (fontSize) => {
     : "100%";
 };
 
-const DetailsTable = ({ details, background }) => {
+const DetailsTable = ({ generalInformation = [], background }) => {
   const {
     attackSpeed,
     speed,
@@ -50,7 +50,7 @@ const DetailsTable = ({ details, background }) => {
     type,
     quantity,
     sand,
-  } = details;
+  } = generalInformation;
   return (
     <ContainerTable background={background}>
       <Title fontSize={"140%"} margin={"0 0 1.2rem"}>
